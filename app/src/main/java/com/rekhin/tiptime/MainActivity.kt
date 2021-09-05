@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         /*
         * Get the  cost of service as a string
         * */
-        val stringInTextField = binding.costOfService.text.toString()
+        val stringInTextField = binding.costOfServiceEditText.text.toString()
         //Check if the user entered an empty string
         val cost = stringInTextField.toDoubleOrNull()
         if(cost == null) {
